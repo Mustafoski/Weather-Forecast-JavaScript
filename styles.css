@@ -1,0 +1,64 @@
+#content
+{
+    width:1000px;
+    margin:0 auto;
+}
+#search_view
+ {
+
+ }
+#results_view
+{
+
+}
+
+
+body{
+    background-color:rgb(192,192,192);
+}
+
+#search_view
+ {
+
+ }
+#results_view
+{
+
+}
+#gallery_view
+{
+    border: 2px solid blue;
+}
+
+.card
+{
+    width: 30%;
+    height: 300px;
+    border: 2px solid black;
+    float: left;
+    margin: 2px;
+}
+
+
+.temp{
+    color:darkgoldenrod;
+    text-align: left;
+}
+
+
+.humidity {
+    color:darkgoldenrod;
+    text-align:left;
+}
+.wind{
+    color:darkgoldenrod;
+    text-align:left;
+}
+.name{
+    text-align: right;
+    font-weight: bold;
+}
+
+.icon a img {
+    
+}

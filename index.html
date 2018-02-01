@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width ,initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link href="styles.css" type="text/css" rel="stylesheet">
+
+</head>
+<body onload="loadCities();">
+    
+    
+        
+
+
+    
+    
+<div class="container">
+        
+    <div id = "results_view">
+         <div class="inputWrapper">
+            <h1> Weather App </h1>
+            <p>Choose a city.</p>
+            <select  id="dest" onchange="gettingWeather();"  width=150 style="width:150px" ></select><br>
+            <label>Temperature</label>
+            <label class="Temperature" id="Temperature"></label><br>
+            <label>Wind</label>
+            <label class="Wind" id="Wind"></label><br>
+            <label>Description</label>
+            <h1 class="Description" id="Description"></h1>
+
+            <button onclick="forecast();">Forecast</button>
+        </div><!-- InputWrapper -->
+    </div>
+    <div id="forecast_view">
+       <div class=container>
+                <h1>Forecast</h1>
+                <div class="card-block" id="list"></div>
+                
+            </div>
+        
+    </div>
+    
+ </div> <!-- end container -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+ <script src="app.js"></script> 
+</body>
+</html>
